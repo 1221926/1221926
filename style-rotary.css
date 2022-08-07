@@ -1,0 +1,93 @@
+html{ 
+    height: 100% ;
+}
+body { 
+    background-image: linear-gradient( rgb(159, 212, 254), rgb(209, 205, 255) );
+    margin: 0; font-family: sans-serif
+}
+
+/* Inicio tela de cadastro */
+
+.Tela{
+
+    width: 30%;
+    margin: 4.9% auto;
+    border-radius: 15px;
+    border: 20px black;
+    
+}
+    .barra-titulo
+        .titulo-inner{
+            text-align: center ;
+            }
+            .conteudo 
+            .conteudo-inner {
+                    display: flex;
+                    margin: 6px;
+                    border-radius: 20px;
+                    border: 1px solid black;
+                    background: rgb(0, 37, 108);
+                    flex-direction: column;
+                }
+                .box-form {
+                    display: flex;
+                    width: auto;
+                    margin: 6px;
+                    box-shadow:white;
+                    color: white;
+                    border-radius: 15px;
+                    font-size: 20px;
+                    text-align: left;
+                }
+                
+                input::placeholder{
+                    font-size: 16px;
+                }
+
+                    .form-main { margin: auto; padding: 40px; box-shadow: rgb(61, 66, 134); }
+                    .form-main input{ margin: 3px 0; padding: 20px; border: 2px solid black; border-radius: 15px; width: left ; width: 380px; } 
+                    
+                .img-si{
+                    width: 100px;
+                    margin: auto;  
+                   
+                }
+
+                img{
+                    width: 130%;
+                    max-height: 130px;
+                    flex-direction: column;
+                    margin: auto;
+                }
+                .rls{
+                    font-size: 17px;
+                    width: 380px;
+                    color: white;
+                    background-color: dodgerblue;
+                    border-radius: 15px;
+                    border: none;
+                    padding: 20px;
+                    font-weight: bold
+                }
+                .rlss {
+                    text-align: center;
+                }
+   
+                /* Fim tela de cadastro */
+                
+                @media screen and ( max-width: 1800px ) {
+                    .Tela { width: 50% }
+                    .conteudo-inner{ flex-direction: column-reverse;}
+                }
+
+                @media screen and ( max-width: 1100px ) {
+                    .Tela { width: 80%; } 
+                    .conteudo-inner { flex-direction: column-reverse;}
+                }
+        
+                @media screen and ( max-width: 800px ) {
+                    .Tela { width: 99%;} 
+                    .conteudo-inner { flex-direction: column-reverse;} 
+                }
+
+               
